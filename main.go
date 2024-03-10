@@ -13,7 +13,7 @@ import (
 
 var apiURL string = "https://api.openai.com/v1/images/generations"
 
-var apiKey string = "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"
+var apiKey string = "Your apikey"
 
 type Request struct {
 	Prompt         string `json:"prompt"`
